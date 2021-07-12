@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* ------- top ------ */
+body{
+    opacity: 0;
+	transition: .9s linear;
+}
+
+.mv_title{
+    opacity: 0;
+    transform: translateX(10px);
+    transition: .5s linear;
+}
+
+.mv_text{
+    opacity: 0;
+    transform: translateY(5px);
+    transition: .5s linear;
+}
+
+body.loaded{
+    opacity: 1;
+}
+
+.mv_title.loaded{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.mv_text.loaded{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ------ contents ------ */
+
+.fadein {
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 900ms;
+}
+
+.fadein.scrollin {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* ------ header_fadein ------ */
+.js_header {
+    background-color: #ffffffe5;
+    box-shadow: 0px 5px 10px #75757569;
+    transition: 0.3s;
+    padding-bottom: 10px;
+}

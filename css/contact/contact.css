@@ -1,0 +1,38 @@
+.form {
+  margin-top: 100px;
+}
+
+.form h2 {
+  text-shadow: 0 2px 2px #3636363b;
+  font-size: 68px;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  margin: 0 calc(50% - 50vw);
+  padding-bottom: 40px;
+  background-color: #87b61a;
+}
+
+.form h2 span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  font-weight: bold;
+  left: 50%;
+  top: 90px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.form_container {
+  max-width: 760px;
+  width: 100%;
+  margin: 100px auto;
+  padding: 60px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px #0000005e;
+          box-shadow: 0 0 10px #0000005e;
+}
+/*# sourceMappingURL=contact.css.map */

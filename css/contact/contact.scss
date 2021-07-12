@@ -1,0 +1,33 @@
+.form {
+	margin-top: 100px;
+	h2 {
+		text-shadow: 0 2px 2px #3636363b;
+		font-size: 68px;
+		color: #ffffff;
+		position: relative;
+		text-align: center;
+		margin: 0 calc(50% - 50vw);
+		padding-bottom: 40px;
+		background-color: #87b61a;
+		span {
+			position: absolute;
+			left: 0;
+			top: 0;
+			font-size: 18px;
+			font-weight: bold;
+			left: 50%;
+			top: 90px;
+			transform: translateX(-50%);
+		}
+	}
+}
+
+.form_container {
+	max-width: 760px;
+	width: 100%;
+	margin: 100px auto;
+	padding: 60px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #0000005e;
+}
