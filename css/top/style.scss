@@ -297,30 +297,43 @@
 	margin-bottom: 150px;
 	h2 {
 		color: #87b61a;
+		span{
+			top: 90px;
+		}
 	}
 }
-
-.company_table {
-	margin: 70px auto 0;
+.company_container{
+	margin-top: 70px;
+	justify-content: center;
 }
-table {
-	margin: 0 auto;
+.company_text{
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	font-size: 24px;
 }
-
-tbody {
-	tr {
-		border-bottom: 1px solid #87b61a;
-		.table_name {
-			width: 300px;
-			padding: 20px 0 20px 40px;
-		}
-		.table_txt {
-			width: 600px;
-			padding: 20px 0 20px 40px;
-		}
-		&:last-child .table_txt,
-		&:last-child .table_name {
-			border-bottom: none;
+.company_btn{
+	width: 450px;
+	height: 400px;
+	margin-left: 50px;
+	position: relative;
+	overflow: hidden;
+	background-color: #000;
+	p{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 28px;
+		color: #fff;
+		text-shadow: 0 2px 2px #3636363b;
+	}
+	img{
+		transition-duration: 0.3s;
+		&:hover{
+			transform: scale(1.2);
+			transition-duration: 0.3s;
+			opacity: 0.6;
 		}
 	}
 }
