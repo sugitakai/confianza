@@ -18,7 +18,7 @@ h2{
 h2 span{
     position: absolute;
     left: 50%;
-    top: 80px;
+    top: 85px;
     transform: translateX(-50%);
     font-size: 18px;
     font-weight: bold;
