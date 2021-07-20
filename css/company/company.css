@@ -40,7 +40,7 @@
   max-width: 1000px;
   width: 90%;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: rgba(239, 239, 234, 0.9);
   border-top: 6px solid #a7da39;
   padding: 80px 110px 80px;
   -webkit-transform: translateY(-50px);

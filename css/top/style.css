@@ -9,6 +9,7 @@
   width: 100%;
   height: 500px;
   background: -webkit-gradient(linear, left top, right bottom, from(#d0db00da), to(#009539da));
+  background: -webkit-linear-gradient(top left, #d0db00da, #009539da);
   background: linear-gradient(to bottom right, #d0db00da, #009539da);
   z-index: -1;
 }
@@ -302,9 +303,11 @@
   padding-left: 70px;
   font-size: 18px;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   position: relative;
@@ -353,15 +356,18 @@
 .company_container {
   margin-top: 70px;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .company_text {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
