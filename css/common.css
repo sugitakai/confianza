@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+    color: #505050;
+    font-family: 'Noto Serif JP', serif;
+}
+
+a{
+    display: block;
+}
+
+h2{
+    font-size: 68px;
+    text-shadow: 0 2px 2px #3636363b;
+    text-align: center;
+    position: relative;
+}
+
+h2 span{
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inner{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 960px) {
+    h2{
+        font-size: 48px;
+    }
+    h2 span{
+        top: 55px;
+        font-size: 14px;
+    }
+}
