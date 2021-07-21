@@ -1,79 +1,77 @@
 @charset "UTF-8";
 
 footer {
-    padding: 50px 0 30px;
-    background: #87b61a;
+	padding: 50px 0 30px;
+	background: #87b61a;
 }
 
 .footer_contents {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .footer_contents img {
-    width: 300px;
+	width: 300px;
 }
 
 .footer_contents .footer_list a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 0 10px;
 }
 
-.copywrite{
-    color: #fff;
-    margin-top: 50px;
-    text-align: center;
+.copywrite {
+	color: #fff;
+	margin-top: 50px;
+	text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+	footer {
+		padding: 20px 0;
+	}
+	.footer_contents {
+		flex-direction: column;
+		width: 70%;
+		margin: 0 auto;
+		justify-content: space-around;
+	}
 
-@media screen and (max-width: 960px) {
-    footer {
-        padding: 20px 0;
-    }
-    .footer_contents{
-        flex-direction: column;
-        width: 70%;
-        margin: 0 auto;
-        justify-content: space-around;
-    }
+	.footer_contents img {
+		margin: 0 auto;
+	}
 
-    .footer_contents img {
-        margin: 0 auto;
-    }
+	.footer_list {
+		margin-top: 10px;
+	}
 
-    .footer_list{
-        margin-top: 10px;
-    }
-
-    .footer_list a li{
-        margin-top: 10px;
-    }
+	.footer_list a li {
+		margin-top: 10px;
+	}
 }
 
-@media screen and (max-width: 480px) {
-    .footer_contents{
-        width: 100%;
-    }
+@media screen and (max-width: 599px) {
+	.footer_contents {
+		width: 100%;
+	}
 
-    .footer_contents img{
-        width: 250px;
-    }
+	.footer_contents img {
+		width: 250px;
+	}
 
-    .footer_list{
-        margin-top: 0;
-        font-size: 14px;
-    }
+	.footer_list {
+		margin-top: 0;
+		font-size: 14px;
+	}
 
-    .footer_list a li{
-        margin-top: 10px;
-    }
+	.footer_list a li {
+		margin-top: 10px;
+	}
 
-    .copywrite{
-        font-size: 12px;
-    }
-
+	.copywrite {
+		font-size: 12px;
+	}
 }
