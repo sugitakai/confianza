@@ -13,17 +13,17 @@
 
 .mv_contents {
 	max-width: 1400px;
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	position: relative;
-	.overlay{
+	.overlay {
 		position: absolute;
 		top: 0;
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 100vh;
 		background-color: #fafafa42;
-		width:100%;
+		width: 100%;
 		height: 100%;
 	}
 	img {
@@ -31,10 +31,12 @@
 		height: 820px;
 		object-fit: cover;
 	}
-	.position{
+	.position {
 		position: absolute;
 		top: 40%;
-		left: 10%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 80%;
 		color: #fff;
 		text-shadow: 0 1px 3px #000000;
 	}
@@ -256,7 +258,7 @@
 	background-color: #87b61a;
 	color: #ffffff;
 	transition: 0.4s;
-	br{
+	br {
 		display: none;
 	}
 	h3 {
@@ -297,29 +299,29 @@
 	margin-bottom: 150px;
 	h2 {
 		color: #87b61a;
-		span{
+		span {
 			top: 90px;
 		}
 	}
 }
-.company_container{
+.company_container {
 	margin-top: 70px;
 	justify-content: center;
 }
-.company_text{
+.company_text {
 	display: flex;
 	align-items: center;
 	background-color: #fff;
 	font-size: 24px;
 }
-.company_btn{
+.company_btn {
 	width: 450px;
 	height: 400px;
 	margin-left: 50px;
 	position: relative;
 	overflow: hidden;
 	background-color: #000;
-	p{
+	p {
 		position: absolute;
 		left: 50%;
 		top: 50%;
@@ -328,9 +330,9 @@
 		color: #fff;
 		text-shadow: 0 2px 2px #3636363b;
 	}
-	img{
+	img {
 		transition-duration: 0.3s;
-		&:hover{
+		&:hover {
 			transform: scale(1.2);
 			transition-duration: 0.3s;
 			opacity: 0.6;
@@ -338,16 +340,16 @@
 	}
 }
 
-.contact{
+.contact {
 	padding: 70px 0;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url(../../img/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg);
 	position: relative;
-	&::before{
+	&::before {
 		position: absolute;
-		content: '';
+		content: "";
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -356,10 +358,10 @@
 		z-index: 1;
 	}
 	h2 {
-		color: #fff;;
+		color: #fff;
 		z-index: 100;
-		&::before{
-			content: '';
+		&::before {
+			content: "";
 			position: absolute;
 			left: 50%;
 			top: 130px;
@@ -370,7 +372,7 @@
 	}
 }
 
-.contact_btn{
+.contact_btn {
 	margin: 150px auto 0;
 	width: 500px;
 	font-size: 18px;
@@ -378,17 +380,17 @@
 	background-color: #f4f7ee;
 	border: 1px solid #7ba02a;
 	color: #719622;
-	transition: .6s;
+	transition: 0.6s;
 	text-align: center;
 	position: relative;
 	box-shadow: 0 10px 10px #0000005e;
 	z-index: 100;
-	&:hover{
+	&:hover {
 		transform: translateY(-5px);
 		box-shadow: 0 15px 20px #0000005e;
 	}
-	&::before{
-		content: '';
+	&::before {
+		content: "";
 		position: absolute;
 		top: 50%;
 		right: 50px;
@@ -400,23 +402,26 @@
 	}
 }
 
+////////////////// max-width: 1024px; //////////////////
 
-
-////////////////// max-width: 960px; //////////////////
-
-@media screen and (max-width: 960px) {
-	
-	.mv{
+@media screen and (max-width: 1024px) {
+	.mv {
 		&::before {
 			height: 400px;
 		}
 	}
 
-	.mv_contents{
+	.mv_contents {
 		max-width: 790px;
 		width: 80%;
-		img{
+		img {
 			height: 600px;
+		}
+		.mv_title {
+			font-size: 28px;
+		}
+		.mv_text {
+			font-size: 20px;
 		}
 		.catchphrase {
 			left: 50%;
@@ -446,27 +451,27 @@
 		}
 	}
 
-	.message_details{
+	.message_details {
 		writing-mode: unset;
 		text-align: center;
 	}
 
-	.message_text{
+	.message_text {
 		font-size: 16px;
 		margin-bottom: 20px;
 	}
 
-	.about_contents{
+	.about_contents {
 		margin-left: 50px;
 		margin-right: 50px;
 	}
 
-	.about_text{
+	.about_text {
 		padding: 20px 50px;
 	}
 
-	.about_card{
-		h3{
+	.about_card {
+		h3 {
 			font-size: 28px;
 		}
 	}
@@ -478,32 +483,32 @@
 		}
 	}
 
-	.work_container{
+	.work_container {
 		margin-top: 30px;
 		padding: 20px 40px;
 	}
 
-	.work_item{
+	.work_item {
 		text-align: center;
 		margin: 10px auto;
-		br{
+		br {
 			display: block;
 		}
-		h3{
+		h3 {
 			font-size: 16px;
 			height: 65px;
 		}
 	}
 
-	.work_text{
+	.work_text {
 		font-size: 18px;
 	}
 
-	.contact{
+	.contact {
 		padding: 40px 0;
 		h2 {
-			&::before{
-				content: '';
+			&::before {
+				content: "";
 				position: absolute;
 				left: 50%;
 				top: 90px;
@@ -514,7 +519,7 @@
 		}
 	}
 
-	.contact_btn{
+	.contact_btn {
 		max-width: 350px;
 		width: 90%;
 		font-size: 16px;
@@ -523,22 +528,25 @@
 	}
 }
 
+////////////////// max-width: 599px; //////////////////
 
-
-////////////////// max-width: 480px; //////////////////
-
-@media screen and (max-width: 480px) {
-
-	.mv{
+@media screen and (max-width: 599px) {
+	.mv {
 		&::before {
 			height: 200px;
 		}
 	}
 
-	.mv_contents{
-		width: 90%;
-		img{
+	.mv_contents {
+		width: 100%;
+		img {
 			height: 90vh;
+		}
+		.mv_title {
+			font-size: 24px;
+		}
+		.mv_text {
+			font-size: 16px;
 		}
 	}
 
@@ -546,66 +554,66 @@
 		margin-top: 150px;
 	}
 
-	.message h2{
+	.message h2 {
 		font-size: 24px;
 	}
 
 	.message_text {
-        font-size: 14px;
-    }
+		font-size: 14px;
+	}
 
-	.about{
+	.about {
 		padding-top: 50px;
 		padding-bottom: 50px;
 		margin-top: 50px;
 	}
 
-	.about_container{
+	.about_container {
 		margin-top: 30px;
 	}
 
-	.about_contents{
+	.about_contents {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
 
-	.about_text{
+	.about_text {
 		padding: 10px;
 		font-size: 14px;
 	}
 
-	.about_card{
+	.about_card {
 		margin-bottom: 30px;
-		h3{
+		h3 {
 			font-size: 22px;
-			span{
+			span {
 				top: 25px;
 			}
 		}
 	}
 
-	.work{
+	.work {
 		padding-top: 30px;
 	}
 
-	.work_container{
+	.work_container {
 		padding: 20px;
 		box-shadow: 0 5px 10px #5c5c5c86;
 	}
 
-	.work_item{
-		h3{
+	.work_item {
+		h3 {
 			padding-left: 20px;
 		}
 	}
 
-	.work_text{
+	.work_text {
 		font-size: 14px;
 		margin: 30px 0;
 		line-height: normal;
 	}
 
-	.company{
+	.company {
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
@@ -627,11 +635,11 @@
 		}
 	}
 
-	.contact{
+	.contact {
 		padding: 30px 0;
 	}
 
-	.contact_btn{
+	.contact_btn {
 		font-size: 14px;
 	}
 }

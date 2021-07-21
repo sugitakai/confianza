@@ -1,10 +1,6 @@
 @charset "UTF-8";
-m {
-	max-width: 900px;
-	width: 100%;
-	margin: 100px auto 0;
-}
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 599px) {
 	.form {
 		margin-top: 40px;
 	}
@@ -16,7 +12,7 @@ m {
 	display: flex;
 	align-items: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 599px) {
 	.form-item {
 		padding-left: 14px;
 		padding-right: 14px;
@@ -35,7 +31,7 @@ m {
 	font-weight: bold;
 	font-size: 18px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 599px) {
 	.form-item-Label {
 		max-width: inherit;
 		display: flex;
@@ -47,7 +43,7 @@ m {
 	margin-top: 8px;
 	margin-bottom: auto;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 599px) {
 	.form-item-Label.isMsg {
 		margin-top: 0;
 	}
@@ -63,7 +59,7 @@ m {
 	color: #92c41d;
 	font-size: 14px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 599px) {
 	.form-item-Label-Required {
 		padding-top: 4px;
 		padding-bottom: 4px;
@@ -83,7 +79,7 @@ m {
 	background: #eaedf2;
 	font-size: 18px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 599px) {
 	.form-item-Input {
 		margin-left: 0;
 		margin-top: 18px;
@@ -104,7 +100,7 @@ m {
 	background: #eaedf2;
 	font-size: 18px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 599px) {
 	.form-item-Textarea {
 		margin-top: 18px;
 		margin-left: 0;
@@ -123,17 +119,18 @@ m {
 	display: block;
 	letter-spacing: 0.05em;
 	text-align: center;
-	color: #87b61a;border: 1px solid #87b61a;
+	color: #87b61a;
+	border: 1px solid #87b61a;
 	font-weight: bold;
 	font-size: 20px;
-  transition: .4s;
+	transition: 0.4s;
 }
-.form-Btn:hover{
-  color: #ffffff;
+.form-Btn:hover {
+	color: #ffffff;
 	background: #87b61a;
-  transition: .4s;
+	transition: 0.4s;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 599px) {
 	.form-Btn {
 		margin-top: 24px;
 		padding-top: 8px;

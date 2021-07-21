@@ -13,8 +13,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .mv h1 span {
@@ -43,8 +42,7 @@
   background-color: #fff;
   border-top: 6px solid #a7da39;
   padding: 80px 110px 80px;
-  -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
+  transform: translateY(-50px);
 }
 
 .company h2 {
@@ -74,7 +72,7 @@ tbody tr:last-child .table_name {
   border-bottom: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
   .contents h2 {
     font-size: 28px;
   }
@@ -100,7 +98,7 @@ tbody tr:last-child .table_name {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 599px) {
   .mv {
     height: 200px;
   }
@@ -116,8 +114,7 @@ tbody tr:last-child .table_name {
   }
   .contents .company_area {
     width: 100%;
-    -webkit-transform: unset;
-            transform: unset;
+    transform: unset;
   }
 }
 /*# sourceMappingURL=company.css.map */

@@ -21,8 +21,7 @@
   font-weight: bold;
   left: 50%;
   top: 90px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .form_container {
@@ -32,7 +31,6 @@
   padding: 60px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 10px #0000005e;
-          box-shadow: 0 0 10px #0000005e;
+  box-shadow: 0 0 10px #0000005e;
 }
 /*# sourceMappingURL=contact.css.map */
