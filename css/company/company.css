@@ -1,0 +1,120 @@
+.mv {
+  background-image: url(../../img/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg);
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.mv h1 {
+  font-size: 44px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 2px #3636363b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mv h1 span {
+  font-size: 28px;
+}
+
+.contents {
+  background-color: #f4f7ee;
+}
+
+.contents h2 {
+  font-size: 36px;
+  text-align: left;
+  color: #7ba02a;
+  margin: 40px 0 15px;
+}
+
+.contents p {
+  line-height: 2.2;
+}
+
+.company_area {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-top: 6px solid #a7da39;
+  padding: 80px 110px 80px;
+  transform: translateY(-50px);
+}
+
+.company h2 {
+  color: #87b61a;
+}
+
+table {
+  margin: 0 auto;
+}
+
+tbody tr {
+  border-bottom: 1px solid #87b61a;
+}
+
+tbody tr .table_name {
+  width: 300px;
+  padding: 20px 0 20px 40px;
+}
+
+tbody tr .table_txt {
+  width: 600px;
+  padding: 20px 0 20px 40px;
+}
+
+tbody tr:last-child .table_txt,
+tbody tr:last-child .table_name {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .contents h2 {
+    font-size: 28px;
+  }
+  .contents .company_area {
+    padding: 20px 40px 60px;
+  }
+  .company {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .company_table {
+    margin: 30px auto 0;
+  }
+  tbody {
+    font-size: 12px;
+  }
+  tbody tr .table_name {
+    padding: 10px 0 10px 15px;
+  }
+  tbody tr .table_txt {
+    padding: 10px 0 10px 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .mv {
+    height: 200px;
+  }
+  .mv h1 {
+    font-size: 28px;
+  }
+  .contents h2 {
+    font-size: 24px;
+  }
+  .contents p {
+    line-height: 1.8;
+    font-size: 14px;
+  }
+  .contents .company_area {
+    width: 100%;
+    transform: unset;
+  }
+}
+/*# sourceMappingURL=company.css.map */

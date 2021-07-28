@@ -1,0 +1,645 @@
+.mv {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		bottom: -80px;
+		width: 100%;
+		height: 500px;
+		background: linear-gradient(to bottom right, #d0db00da, #009539da);
+		z-index: -1;
+	}
+}
+
+.mv_contents {
+	max-width: 1400px;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	.overlay {
+		position: absolute;
+		top: 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+		background-color: #fafafa42;
+		width: 100%;
+		height: 100%;
+	}
+	img {
+		width: 100%;
+		height: 820px;
+		object-fit: cover;
+	}
+	.position {
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 80%;
+		color: #fff;
+		text-shadow: 0 1px 3px #000000;
+	}
+	.mv_title {
+		font-size: 38px;
+	}
+	.mv_text {
+		font-size: 28px;
+		margin-top: 10px;
+	}
+}
+
+.message {
+	margin-top: 200px;
+	position: relative;
+	h2 {
+		text-shadow: 0 2px 2px #3636363b;
+		text-align: left;
+		font-size: 36px;
+		color: #87b61a;
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: -10px;
+			height: 1px;
+			width: 70px;
+			background-color: #92c41d;
+		}
+	}
+}
+
+.message_details {
+	text-align: left;
+	writing-mode: vertical-rl;
+	margin: 50px auto 0;
+}
+
+.message_text {
+	font-size: 18px;
+	margin-right: 35px;
+	line-height: 2.2;
+}
+
+.message_img {
+	opacity: 0.3;
+	z-index: -1;
+}
+
+.img_1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	img {
+		width: 600px;
+		height: 450px;
+		object-fit: cover;
+	}
+}
+.img_2 {
+	position: absolute;
+	bottom: -30px;
+	left: 100px;
+	img {
+		width: 350px;
+		height: 250px;
+		object-fit: cover;
+	}
+}
+
+.about {
+	margin-top: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #fafafa;
+	h2 {
+		color: #87b61a;
+	}
+}
+
+.about_container {
+	margin-top: 70px;
+}
+
+.about_card {
+	margin-bottom: 70px;
+	color: #ffffff;
+	position: relative;
+	&:nth-child(3) {
+		margin-bottom: 0;
+	}
+	img {
+		width: 100%;
+		height: 400px;
+		object-fit: cover;
+		opacity: 0.9;
+	}
+	h3 {
+		font-size: 36px;
+		text-align: center;
+		position: relative;
+		margin-top: 10px;
+		span {
+			position: absolute;
+			left: 50%;
+			top: 40px;
+			transform: translateX(-50%);
+			font-size: 18px;
+		}
+	}
+	&::after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "";
+		background: #4d4d4d6c;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.about_number {
+	text-align: center;
+	font-size: 28px;
+	z-index: 100;
+	span {
+		transform: translateY(-18px);
+		display: block;
+	}
+	&::before {
+		content: "";
+		width: 42%;
+		height: 1px;
+		background: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	&::after {
+		content: "";
+		width: 42%;
+		height: 1px;
+		background: #fff;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+.about_contents {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 200px;
+	z-index: 10;
+	border: 1px solid #fff;
+	border-top: none;
+}
+
+.about_text {
+	margin-top: 20px;
+	padding: 30px 90px;
+	letter-spacing: 1.5px;
+}
+
+.about_card_2 {
+	background-image: url(../img/pedro-lastra-Nyvq2juw4_o-unsplash.jpg);
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.about_card_3 {
+	background-image: url(../img/businessman-3210932_1920.jpg);
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.work {
+	position: relative;
+	padding-top: 100px;
+	&::before {
+		content: "";
+		background-image: url(../../img/artur-luczka-loAfOVk1eNc-unsplash.jpg);
+		opacity: 0.85;
+		width: 100%;
+		height: 400px;
+		position: absolute;
+		top: 0;
+		z-index: -1;
+	}
+	h2 {
+		color: #fafafa;
+	}
+}
+
+.work_container {
+	margin-top: 50px;
+	background-color: #ffffff;
+	padding: 40px;
+	box-shadow: 0 10px 20px #5c5c5c86;
+	&::after {
+		content: "";
+		display: block;
+		width: 540px;
+		margin-right: 20px;
+	}
+}
+
+.work_item {
+	width: 540px;
+	margin: 0 auto 20px;
+	background-color: #87b61a;
+	color: #ffffff;
+	transition: 0.4s;
+	br {
+		display: none;
+	}
+	h3 {
+		height: 80px;
+		padding-left: 70px;
+		font-size: 18px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		&::before {
+			content: "";
+			display: block;
+			width: 8px;
+			height: 8px;
+			border-top: solid 1px rgba(255, 255, 255, 1);
+			border-right: solid 1px rgba(255, 255, 255, 1);
+			position: absolute;
+			top: 50%;
+			right: 30px;
+			transform: translateY(-50%) rotate(45deg);
+		}
+	}
+	&:hover {
+		opacity: 0.7;
+		transition: 0.4s;
+	}
+}
+
+.work_text {
+	margin: 50px 0;
+	font-size: 22px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.company {
+	margin-top: 150px;
+	margin-bottom: 150px;
+	h2 {
+		color: #87b61a;
+		span {
+			top: 90px;
+		}
+	}
+}
+.company_container {
+	margin-top: 70px;
+	justify-content: center;
+}
+.company_text {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	font-size: 24px;
+}
+.company_btn {
+	width: 450px;
+	height: 400px;
+	margin-left: 50px;
+	position: relative;
+	overflow: hidden;
+	background-color: #000;
+	p {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 28px;
+		color: #fff;
+		text-shadow: 0 2px 2px #3636363b;
+	}
+	img {
+		transition-duration: 0.3s;
+		&:hover {
+			transform: scale(1.2);
+			transition-duration: 0.3s;
+			opacity: 0.6;
+		}
+	}
+}
+
+.contact {
+	padding: 70px 0;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../../img/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg);
+	position: relative;
+	&::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255, 255, 255, 0.171);
+		z-index: 1;
+	}
+	h2 {
+		color: #fff;
+		z-index: 100;
+		&::before {
+			content: "";
+			position: absolute;
+			left: 50%;
+			top: 130px;
+			width: 1px;
+			height: 70px;
+			background-color: #ffffff;
+		}
+	}
+}
+
+.contact_btn {
+	margin: 150px auto 0;
+	width: 500px;
+	font-size: 18px;
+	padding: 25px 0;
+	background-color: #f4f7ee;
+	border: 1px solid #7ba02a;
+	color: #719622;
+	transition: 0.6s;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 10px 10px #0000005e;
+	z-index: 100;
+	&:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 15px 20px #0000005e;
+	}
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		right: 50px;
+		width: 10px;
+		height: 10px;
+		border-right: 1px solid #7ba02a;
+		border-top: 1px solid #7ba02a;
+		transform: rotate(45deg) translateY(-80%);
+	}
+}
+
+////////////////// max-width: 1024px; //////////////////
+
+@media screen and (max-width: 1024px) {
+	.mv {
+		&::before {
+			height: 400px;
+		}
+	}
+
+	.mv_contents {
+		max-width: 790px;
+		width: 80%;
+		img {
+			height: 600px;
+		}
+		.mv_title {
+			font-size: 28px;
+		}
+		.mv_text {
+			font-size: 20px;
+		}
+		.catchphrase {
+			left: 50%;
+			transform: translateX(-50%);
+			width: 100%;
+			text-align: center;
+			font-size: 36px;
+		}
+	}
+
+	.img_1 {
+		img {
+			width: 250px;
+			height: 250px;
+			object-fit: cover;
+		}
+	}
+
+	.img_2 {
+		position: absolute;
+		bottom: 30px;
+		left: 0;
+		img {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+		}
+	}
+
+	.message_details {
+		writing-mode: unset;
+		text-align: center;
+	}
+
+	.message_text {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+	.about_contents {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.about_text {
+		padding: 20px 50px;
+	}
+
+	.about_card {
+		h3 {
+			font-size: 28px;
+		}
+	}
+
+	.work {
+		padding-top: 50px;
+		&::before {
+			height: 250px;
+		}
+	}
+
+	.work_container {
+		margin-top: 30px;
+		padding: 20px 40px;
+	}
+
+	.work_item {
+		text-align: center;
+		margin: 10px auto;
+		br {
+			display: block;
+		}
+		h3 {
+			font-size: 16px;
+			height: 65px;
+		}
+	}
+
+	.work_text {
+		font-size: 18px;
+	}
+
+	.contact {
+		padding: 40px 0;
+		h2 {
+			&::before {
+				content: "";
+				position: absolute;
+				left: 50%;
+				top: 90px;
+				width: 1px;
+				height: 40px;
+				background-color: #ffffff;
+			}
+		}
+	}
+
+	.contact_btn {
+		max-width: 350px;
+		width: 90%;
+		font-size: 16px;
+		padding: 15px 0;
+		margin-top: 90px;
+	}
+}
+
+////////////////// max-width: 599px; //////////////////
+
+@media screen and (max-width: 599px) {
+	.mv {
+		&::before {
+			height: 200px;
+		}
+	}
+
+	.mv_contents {
+		width: 100%;
+		img {
+			height: 90vh;
+		}
+		.mv_title {
+			font-size: 24px;
+		}
+		.mv_text {
+			font-size: 16px;
+		}
+	}
+
+	.message {
+		margin-top: 150px;
+	}
+
+	.message h2 {
+		font-size: 24px;
+	}
+
+	.message_text {
+		font-size: 14px;
+	}
+
+	.about {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-top: 50px;
+	}
+
+	.about_container {
+		margin-top: 30px;
+	}
+
+	.about_contents {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.about_text {
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	.about_card {
+		margin-bottom: 30px;
+		h3 {
+			font-size: 22px;
+			span {
+				top: 25px;
+			}
+		}
+	}
+
+	.work {
+		padding-top: 30px;
+	}
+
+	.work_container {
+		padding: 20px;
+		box-shadow: 0 5px 10px #5c5c5c86;
+	}
+
+	.work_item {
+		h3 {
+			padding-left: 20px;
+		}
+	}
+
+	.work_text {
+		font-size: 14px;
+		margin: 30px 0;
+		line-height: normal;
+	}
+
+	.company {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.company_table {
+		margin: 30px auto 0;
+	}
+
+	tbody {
+		font-size: 12px;
+		tr {
+			.table_name {
+				padding: 10px 0 10px 15px;
+			}
+			.table_txt {
+				padding: 10px 0 10px 15px;
+				line-height: 20px;
+			}
+		}
+	}
+
+	.contact {
+		padding: 30px 0;
+	}
+
+	.contact_btn {
+		font-size: 14px;
+	}
+}
