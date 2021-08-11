@@ -43,11 +43,3 @@ body.loaded{
 	opacity: 1;
 	transform: translateY(0);
 }
-
-/* ------ header_fadein ------ */
-.js_header {
-    background-color: #ffffffe5;
-    box-shadow: 0px 5px 10px #75757569;
-    transition: 0.3s;
-    padding-bottom: 10px;
-}

@@ -1,55 +1,5 @@
-
 .mv {
   background-image: url(../../img/ash-from-modern-afflatus-NQ6Lh81BTRs-unsplash.jpg);
-  width: 100%;
-  height: 500px;
-  position: relative;
-}
-
-.mv h1 {
-  font-size: 44px;
-  text-align: center;
-  color: #fff;
-  text-shadow: 0 2px 2px #3636363b;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.mv h1 span {
-  font-size: 28px;
-}
-
-.contents {
-  background-color: #f4f7ee;
-}
-
-.contents h2 {
-  font-size: 36px;
-  text-align: left;
-  color: #7ba02a;
-  margin: 40px 0 15px;
-}
-
-.contents p {
-  line-height: 2.2;
-}
-
-.company_area {
-  max-width: 1000px;
-  width: 90%;
-  margin: 0 auto;
-  background-color: rgba(239, 239, 234, 0.9);
-  border-top: 6px solid #a7da39;
-  padding: 80px 110px 80px;
-  -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
-}
-
-.company h2 {
-  color: #87b61a;
 }
 
 table {
@@ -76,16 +26,6 @@ tbody tr:last-child .table_name {
 }
 
 @media screen and (max-width: 960px) {
-  .contents h2 {
-    font-size: 28px;
-  }
-  .contents .company_area {
-    padding: 20px 40px 60px;
-  }
-  .company {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
   .company_table {
     margin: 30px auto 0;
   }
@@ -98,27 +38,6 @@ tbody tr:last-child .table_name {
   tbody tr .table_txt {
     padding: 10px 0 10px 15px;
     line-height: 20px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .mv {
-    height: 200px;
-  }
-  .mv h1 {
-    font-size: 28px;
-  }
-  .contents h2 {
-    font-size: 24px;
-  }
-  .contents p {
-    line-height: 1.8;
-    font-size: 14px;
-  }
-  .contents .company_area {
-    width: 100%;
-    -webkit-transform: unset;
-            transform: unset;
   }
 }
 /*# sourceMappingURL=contact.css.map */

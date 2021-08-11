@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
 	color: #505050;
-	font-family: "Noto Serif JP", serif;
+	
 }
 
 a {
@@ -10,9 +10,9 @@ a {
 
 h2 {
 	font-size: 68px;
-	text-shadow: 0 2px 2px #3636363b;
 	text-align: center;
 	position: relative;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 h2 span {
@@ -23,6 +23,54 @@ h2 span {
 	font-size: 18px;
 	font-weight: bold;
 }
+.mv{
+	width: 100%;
+    height: 400px;
+    position: relative;
+}
+.mv h1 {
+	font-size: 44px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 2px 2px #3636363b;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+  }
+  
+  .mv h1 span {
+	font-size: 28px;
+  }
+  
+  .contents {
+	background-color: #f4f7ee;
+  }
+  
+  .contents h2 {
+	font-size: 36px;
+	text-align: left;
+	color: #7ba02a;
+	margin: 40px 0 15px;
+  }
+  
+  .contents p {
+	line-height: 2.2;
+  }
+  
+  .area {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #fff;
+	border-top: 6px solid #a7da39;
+	padding: 80px 110px 80px;
+	-webkit-transform: translateY(-50px);
+			transform: translateY(-50px);
+  }
+  
 
 .inner {
 	max-width: 1200px;
@@ -44,4 +92,34 @@ h2 span {
 		top: 55px;
 		font-size: 14px;
 	}
+	.contents h2 {
+		font-size: 28px;
+	}
+	.contents .area {
+		padding: 20px 40px 60px;
+	}
 }
+
+@media screen and (max-width: 599px) {
+	
+	.mv {
+	  height: 250px;
+	  margin-top: 70px;
+	}
+	.mv h1 {
+	  font-size: 28px;
+	}
+	.contents h2 {
+	  font-size: 24px;
+	}
+	.contents p {
+	  line-height: 1.8;
+	  font-size: 14px;
+	}
+	.area {
+	  max-width: unset;
+	  width: 100%;
+	  -webkit-transform: unset;
+			  transform: unset;
+	}
+  }

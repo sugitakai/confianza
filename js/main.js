@@ -10,19 +10,6 @@ function toggleNav() {
 }
 toggleNav();
 
-
-
-//////////////////// スクロールフェードイン ////////////////////
-jQuery(window).on('scroll', function () {
-    if (jQuery('.mv_fadein').height() < jQuery(this).scrollTop()) {
-        jQuery('.header_container').addClass('js_header');
-    } else {
-        jQuery('.header_container').removeClass('js_header');
-    }
-});
-
-
-
 //////////////////// トップフェードイン ////////////////////
 $(window).load(function() {
     $("body").addClass("loaded");
