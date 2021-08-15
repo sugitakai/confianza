@@ -25,18 +25,12 @@
   text-align: left;
   color: #7ba02a;
   margin: 40px 0 15px;
-  display: block; /* ブロック要素にする */
-  margin: 0 auto; /* 要素中央揃え */
-  position: relative; /* 位置指定 */
-  animation: anime1 1s ease; /* アニメーション指定 */
+
 }
 
 .contents p {
   line-height: 2.2;
-  display: block; /* ブロック要素にする */
-  margin: 0 auto; /* 要素中央揃え */
-  position: relative; /* 位置指定 */
-  animation: anime1 1s ease; /* アニメーション指定 */
+
 }
 
 .contents .foodshop_area {
@@ -52,10 +46,7 @@
 .contents .foodshop_area .others {
   text-align: center;
   margin-top: 50px;
-  display: block; /* ブロック要素にする */
-  margin: 0 auto; /* 要素中央揃え */
-  position: relative; /* 位置指定 */
-  animation: anime1 1s ease; /* アニメーション指定 */
+
 }
 
 .contents .foodshop_area .others h3 {
@@ -136,22 +127,7 @@
 .ConsulImage{
   width: 30%;
   height: 400px;
-  display: block; /* ブロック要素にする */
-  margin: 0 auto; /* 要素中央揃え */
-  position: relative; /* 位置指定 */
-  animation: anime1 1s ease; /* アニメーション指定 */
-  background: left top/0% no-repeat;
-  transition: all 1s;
-}
-@keyframes anime1 {
-  0% {
-      opacity:  0;                /* 透明度指定 */
-      top: 50px;                  /* 位置指定 */
-  }
-  100% {
-      opacity:  1;                /* 透明度指定 */
-      top: 0;                     /* 位置指定 */
-  }
+
 }
 .flex>.ConsulImage{
   width: 30%;
@@ -165,24 +141,5 @@
 .ProduceImage{
   width: 30%;
   height: 400px;
-  display: block; /* ブロック要素にする */
-  margin: 0 auto; /* 要素中央揃え */
-  position: relative; /* 位置指定 */
-  animation: anime1 1s ease; /* アニメーション指定 */
-  background: left top/0% no-repeat;
-  transition: all 1s;
-}
-/*アニメーション要素のスタイル*/
-.animation{
-	opacity : 0;
-	visibility: hidden;
-	transition: 1s;
-	transform: translateY(30px);
-}
-/*アニメーション要素までスクロールした時のスタイル*/
-.active{
-	opacity: 1;
-	visibility: visible;
-	transform: translateY(0);
 }
 /*# sourceMappingURL=foodshop.css.map */
