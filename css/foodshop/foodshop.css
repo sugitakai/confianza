@@ -41,6 +41,7 @@
   border-top: 6px solid #a7da39;
   padding: 40px 110px 80px;
   transform: translateY(-50px);
+  -webkit-transform: translateY(-50px);
 }
 
 .contents .foodshop_area .others {
