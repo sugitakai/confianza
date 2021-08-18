@@ -31,7 +31,6 @@ header .header_container .header_list .header_text li {
   opacity: 0;
   font-size: 18px;
   text-decoration: none;
-  font-weight: bold;
   -webkit-transition: .6s;
   transition: .6s;
   position: relative;
