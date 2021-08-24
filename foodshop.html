@@ -13,33 +13,29 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/foodshop/foodshop.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- favicon -->
 	<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
-
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
 </head>
-<body>
+
     <header class="header">
         <div class="header_container">
             <div class="header_title">
-                <a href="./index.html"><h1><img src="./img/logo_600.png" alt="" /></h1></a>
+                <a href="./index.html"><h1><img src="img\logo_600.png" alt="" /></h1></a>
             </div>
             <div class="header_list">
                 <ul class="header_text">
-                    <li><a href="index.html#scroll_1">私たちについて</a></li>
-                    <li>
-                        <a href="index.html#scroll_2">事業内容</a>
-                        <div class="work_area">
-                            <a href="./outsourcing.html" class="work_list">◆ アウトソーシング事業部</a>
-                            <a href="./foodshop.html" class="work_list">◆ 飲食コンサルティング<br>＆<br>プロデュース事業部</a>
-                            <a href="./jinzai.html" class="work_list">◆ 人材派遣事業部</a>
-                        </div> 
-                    </li>
-                    <li><a href="index.html#scroll_3">会社案内</a></li>
-                    <li><a href="./contact.html">お問い合わせ</a></li>
+                    <li><a href="index.html#scroll_1">会社案内</a></li>
+                    <li><a href="index.html#scroll_2">事業内容</a></li>
+                    <li><a href="index.html#scroll_3">わたしたちについて</a></li>
+                    <li><a href="index.html#scroll_4">お問い合わせ</a></li>
                 </ul>
             </div>
 
@@ -58,10 +54,11 @@
         </div>
 
         <div class="contents">
-            <div class="area">
+            <div class="foodshop_area">
                 <div class="consulting">
-                    <h2>飲食コンサルティング</h2>
-                    <p>
+                    <h2 data-aos="fade">飲食コンサルティング</h2>
+                    <div class="flex">
+                        <p data-aos="fade">
                         テキストです。テキストです。テキストです。テキストです。テキストです。
                         テキストです。テキストです。テキストです。テキストです。テキストです。
                         テキストです。テキストです。テキストです。テキストです。テキストです。テキストです。
@@ -71,11 +68,14 @@
                         テキストです。テキストです。テキストです。テキストです。テキストです。テキストです。
                         テキストです。テキストです。テキストです。テキストです。テキストです。テキストです。
                         テキストです。テキストです。テキストです。テキストです。テキストです。テキストです。
-                    </p>
+                        </p>
+                        <img src="img\foodshop1-consulting-publicdomainq-0054923rhy.jpg" alt="" class="ConsulImage" data-aos="fade-up"data-aos-duration="800" data-aos-delay="800">
+                    </div>
                 </div>
                 <div class="produce">
-                    <h2>飲食プロデュース</h2>
-                    <p>
+                    <h2 data-aos="fade">飲食プロデュース</h2>
+                    <div class="flex">
+                        <p data-aos="fade">
                         テキストです。テキストです。テキストです。テキストです。テキストです。
                         テキストです。テキストです。テキストです。テキストです。テキストです。
                         テキストです。テキストです。テキストです。テキストです。テキストです。テキストです。
@@ -85,7 +85,16 @@
                         テキストです。テキストです。テキストです。テキストです。テキストです。テキストです。
                         テキストです。テキストです。テキストです。テキストです。テキストです。テキストです。
                         テキストです。テキストです。テキストです。テキストです。テキストです。テキストです。
-                    </p>
+                        </p>
+                        <img src="img\shaking-hands-3091906_1920.jpg" alt="" class="ProduceImage" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
+                    </div>
+                </div>
+                <div class="others" data-aos="fade">
+                    <h3>その他事業部はこちら</h3>
+                    <div class="others_list">
+                        <a class="btn" href="#">アウトソーシング事業部</a>
+                        <a class="btn" href="#">人材派遣事業部</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,10 +106,10 @@
             <div class="footer_contents flex">
                 <img src="./img/logo_footer.png" alt="">
                 <ul class="footer_list flex">
-                    <li><a href="index.html#scroll_1">私たちについて</a></li>
-                    <li><a href="index.html#scroll_2">事業内容</a></li>
-                    <li><a href="index.html#scroll_3">会社案内</a></li>
-                    <li><a href="./contact.html">お問い合わせ</a></li>
+                    <a href="#scroll_1"><li>私たちについて</li></a>
+                    <a href="#scroll_2"><li>事業内容</li></a>
+                    <a href="#scroll_3"><li>会社概要</li></a>
+                    <a href="./contact.html"><li>お問い合わせ</li></a>
                 </ul>
             </div>
         </div>
@@ -108,5 +117,7 @@
     </footer>
 
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
+    <script>  AOS.init(); </script>
 </body>
 </html>

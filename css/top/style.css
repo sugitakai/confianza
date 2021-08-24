@@ -27,16 +27,14 @@
 .top_mv_contents img {
   width: 100%;
   height: 820px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .top_mv_contents .position {
   position: absolute;
   top: 40%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   width: 80%;
   color: #fff;
   text-shadow: 0 1px 3px #000000;
@@ -77,9 +75,7 @@
 
 .message_details {
   text-align: left;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   margin: 50px auto 0;
   font-family: "Noto Serif JP", serif;
 }
@@ -104,8 +100,7 @@
 .img_1 img {
   width: 600px;
   height: 450px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .img_2 {
@@ -117,8 +112,7 @@
 .img_2 img {
   width: 350px;
   height: 250px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .about {
@@ -148,8 +142,7 @@
 .about_card img {
   width: 100%;
   height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   opacity: 0.9;
 }
 
@@ -164,8 +157,7 @@
   position: absolute;
   left: 50%;
   top: 40px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   font-size: 18px;
 }
 
@@ -186,8 +178,7 @@
 }
 
 .about_number span {
-  -webkit-transform: translateY(-18px);
-          transform: translateY(-18px);
+  transform: translateY(-18px);
   display: block;
 }
 
@@ -214,8 +205,7 @@
 .about_contents {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   margin: 0 200px;
   z-index: 10;
   border: 1px solid #fff;
@@ -255,8 +245,7 @@
 
 .work .work_container .work_item img {
   width: 100%;
-  -webkit-box-shadow: 10px 10px 20px #888888;
-          box-shadow: 10px 10px 20px #888888;
+  box-shadow: 10px 10px 20px #888888;
 }
 
 .work .work_container .work_item a h3 {
@@ -266,13 +255,11 @@
   letter-spacing: 2px;
   line-height: 30px;
   text-align: center;
-  -webkit-transition: .2s;
   transition: .2s;
 }
 
 .work .work_container .work_item a h3:hover {
   color: #87b61a;
-  -webkit-transition: .2s;
   transition: .2s;
 }
 
@@ -315,8 +302,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .company_container .company_text h3 {
@@ -349,8 +335,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .contact .contact_wrap .contact_inner p {
@@ -368,21 +353,17 @@
   background-color: #ffffff;
   border: 1px solid #7ba02a;
   color: #719622;
-  -webkit-transition: 0.6s;
   transition: 0.6s;
   text-align: center;
   position: relative;
-  -webkit-box-shadow: 0 10px 10px #0000005e;
-          box-shadow: 0 10px 10px #0000005e;
+  box-shadow: 0 10px 10px #0000005e;
   z-index: 100;
   margin-top: 30px;
 }
 
 .contact .contact_wrap .contact_inner .contact_btn:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-  -webkit-box-shadow: 0 15px 20px #0000005e;
-          box-shadow: 0 15px 20px #0000005e;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 20px #0000005e;
 }
 
 .contact .contact_wrap .contact_inner .contact_btn::before {
@@ -394,8 +375,7 @@
   height: 10px;
   border-right: 1px solid #7ba02a;
   border-top: 1px solid #7ba02a;
-  -webkit-transform: rotate(45deg) translateY(-80%);
-          transform: rotate(45deg) translateY(-80%);
+  transform: rotate(45deg) translateY(-80%);
 }
 
 @media screen and (max-width: 1024px) {
@@ -408,8 +388,7 @@
   .img_1 img {
     width: 250px;
     height: 250px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .img_2 {
     position: absolute;
@@ -419,13 +398,10 @@
   .img_2 img {
     width: 200px;
     height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .message_details {
-    -webkit-writing-mode: unset;
-        -ms-writing-mode: unset;
-            writing-mode: unset;
+    writing-mode: unset;
     text-align: center;
   }
   .message_text {
@@ -562,8 +538,7 @@
     margin-bottom: 20px;
   }
   .work .work_container .work_item img {
-    -webkit-box-shadow: 5px 5px 10px #888888;
-            box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px #888888;
   }
   .work_text {
     font-size: 14px;
