@@ -1,19 +1,18 @@
 .mv{
-    background-image: url(../../img/4671952_s.jpg);
-    background-color:rgba(110, 114, 114, 0.8);
-    background-blend-mode:lighten;
-    background-size: 100%;
-    background-position: center;
+    background-image: url(../../img/4700099_m.jpg);
+    background-size: cover;
     width: 100%;
     height: 500px;
+    position: relative;
     h1{
         font-size: 44px;
         text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         color: #fff;
-        top:0;
-        left:0;
         text-shadow: 0 2px 2px #3636363b;
-        transform: translateY(100%);
         span{
             font-size: 28px;
         }
@@ -27,6 +26,25 @@
         text-align: left;
         color: #7ba02a;
         margin: 40px 0 15px;
+        h2:before {
+            z-index: 0;
+            width: 100%;
+            background-color: #dfdfdf;
+        }
+        h2:after {
+            z-index: 1;
+            width: 200px;
+            background: linear-gradient(to right, #bee764 0%, #7ba02a 100%);
+        }
+        .contents h2:before, .contents h2:after {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            border-radius: 4px;
+            content: '';
+        }
     }
     p{
         line-height: 2.2;
@@ -121,26 +139,3 @@
         }
     }   
 }
-
-.flex{
-    display:flex;
-    justify-content:flex-start;
-  .ConsulImage{
-    width: 30%;
-    height: 400px;
-  }
-  .flex>.ConsulImage{
-    width: 30%;
-  }
-  .flex>p{
-    width: 60%;
-  }
-  .flex>.ProduceImage{
-    width: 40%;
-  }
-  .ProduceImage{
-    width: 75%;
-    height: 300px; 
-  }
-}
-  /*# sourceMappingURL=foodshop.css.map */
