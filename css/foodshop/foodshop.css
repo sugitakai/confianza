@@ -29,6 +29,31 @@
 
 .contents p {
   line-height: 2.2;
+  padding: 10px;
+  font-size: 15px;
+  font-weight:300;
+}
+
+h2:before {
+  z-index: 0;
+  width: 100%;
+  background-color: #dfdfdf;
+}
+
+.contents h2:after {
+  z-index: 1;
+  width: 200px;
+  background: linear-gradient(to right, #bee764 0%, #7ba02a 100%);
+}
+
+.contents h2:before, .contents h2:after {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  border-radius: 4px;
+  content: '';
 }
 
 .contents .foodshop_area {
